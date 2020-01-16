@@ -1,10 +1,11 @@
 #!/bin/bash
 
-# Purge function
+# Enable copy function
 enable_copy () {
     chmod 604 "keypairs/$1.pem"
 }
 
+# Disable copy function
 disable_copy () {
     chmod 600 "keypairs/$1.pem" 
 }
