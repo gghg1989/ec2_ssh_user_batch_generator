@@ -1,5 +1,5 @@
 # EC2 ssh-user Batch Generator
-The scripts for generating ssh users in batch for ec2 instance.
+The scripts for generating ssh users in batch for ec2 Ubuntu instance.
 
 ## usergen.sh
 Generate user accounts for Ubuntu system, and generate key pairs for each user.
